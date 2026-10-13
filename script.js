@@ -4,14 +4,14 @@
 
 // ---------- Product catalog ----------
 const PRODUCTS = [
-  { id: 1, name: "Trailhead Runner", category: "Running", price: 98, color: "#c1512f", image: "images/trailhead-runner.webp", styleNo: "RN-014", sizes: [7,8,9,10,11,12], stock: 14, isNew: false },
-  { id: 2, name: "Marathon Pro", category: "Running", price: 124, color: "#3c5b42", image: "images/marathon-pro.webp", styleNo: "RN-027", sizes: [8,9,10,11,12,13], stock: 4, isNew: true },
-  { id: 3, name: "Boulevard Low", category: "Casual", price: 76, color: "#4a6fa5", image: "images/boulevard-low.webp", styleNo: "CS-002", sizes: [6,7,8,9,10,11], stock: 22, isNew: false },
-  { id: 4, name: "Cloudstep Slip-On", category: "Casual", price: 64, color: "#d9a441", image: "images/cloudstep-slip-on.webp", styleNo: "CS-018", sizes: [6,7,8,9,10], stock: 3, isNew: false },
-  { id: 5, name: "Court Classic", category: "Basketball", price: 110, color: "#8a3b5e", image: "images/court-classic.webp", styleNo: "BB-009", sizes: [8,9,10,11,12,13], stock: 9, isNew: true },
-  { id: 6, name: "Rimshot High", category: "Basketball", price: 132, color: "#403627", image: "images/rimshot-high.webp", styleNo: "BB-031", sizes: [9,10,11,12,13], stock: 11, isNew: false },
-  { id: 7, name: "Ridge Hiker", category: "Hiking", price: 145, color: "#5c4a32", image: "images/ridge-hiker.webp", styleNo: "HK-005", sizes: [7,8,9,10,11,12], stock: 17, isNew: false },
-  { id: 8, name: "Alley Cat Skate", category: "Skate", price: 70, color: "#2f6f6a", image: "images/alley-cat-skate.webp", styleNo: "SK-011", sizes: [7,8,9,10,11], stock: 5, isNew: false }
+  { id: 1, name: "Trailhead Runner", category: "Running", price: 98, color: "#c1512f", image: "images/trailhead-runner.jpeg", styleNo: "RN-014", sizes: [7,8,9,10,11,12], stock: 14, isNew: false },
+  { id: 2, name: "Marathon Pro", category: "Running", price: 124, color: "#3c5b42", image: "images/marathon-pro.jpeg", styleNo: "RN-027", sizes: [8,9,10,11,12,13], stock: 4, isNew: true },
+  { id: 3, name: "Boulevard Low", category: "Casual", price: 76, color: "#4a6fa5", image: "images/boulevard-low.jpeg", styleNo: "CS-002", sizes: [6,7,8,9,10,11], stock: 22, isNew: false },
+  { id: 4, name: "Cloudstep Slip-On", category: "Casual", price: 64, color: "#d9a441", image: "images/cloudstep-slip-on.jpeg", styleNo: "CS-018", sizes: [6,7,8,9,10], stock: 3, isNew: false },
+  { id: 5, name: "Court Classic", category: "Basketball", price: 110, color: "#8a3b5e", image: "images/court-classic.jpeg", styleNo: "BB-009", sizes: [8,9,10,11,12,13], stock: 9, isNew: true },
+  { id: 6, name: "Rimshot High", category: "Basketball", price: 132, color: "#403627", image: "images/rimshot-high.jpeg", styleNo: "BB-031", sizes: [9,10,11,12,13], stock: 11, isNew: false },
+  { id: 7, name: "Ridge Hiker", category: "Hiking", price: 145, color: "#5c4a32", image: "images/ridge-hiker.jpeg", styleNo: "HK-005", sizes: [7,8,9,10,11,12], stock: 17, isNew: false },
+  { id: 8, name: "Alley Cat Skate", category: "Skate", price: 70, color: "#2f6f6a", image: "images/alley-cat-skate.jpeg", styleNo: "SK-011", sizes: [7,8,9,10,11], stock: 5, isNew: false }
 ];
 
 // give each product a small fixed tilt so the tag-wall feels hand-hung, not random on every re-render
